@@ -3,7 +3,7 @@
     <Navbar />
     <Content />
     <Feature />
-    <Line />
+    <About />
     <!-- <img alt="Vue logo" src="./assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" /> -->
   </div>
@@ -14,7 +14,7 @@
 import Navbar from "./components/Navbar.vue";
 import Content from "./components/Content.vue";
 import Feature from "./components/Feature.vue";
-import Line from "./components/Line.vue";
+import About from "./components/About.vue";
 import "./App.css";
 
 export default {
@@ -23,7 +23,7 @@ export default {
     Navbar,
     Content,
     Feature,
-    Line,
+    About,
   },
 };
 </script>
